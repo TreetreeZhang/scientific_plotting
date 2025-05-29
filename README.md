@@ -7,6 +7,11 @@ A comprehensive Python-based scientific plotting suite based on the "科学绘�
 This suite implements 6 major categories of scientific plots:
 
 ### 1. Line Charts (折线图)
+
+![Basic Line Chart](line_chart/plot/basic_line_chart.png)
+![Multiple Line Chart](line_chart/plot/multiple_line_chart.png)
+![Line Chart with Confidence Interval](line_chart/plot/line_chart_with_ci.png)
+
 - **Basic Line Chart**: Simple time series data
 - **Multiple Line Chart**: Comparing multiple datasets
 - **Styled Line Chart**: Enhanced styling with markers
@@ -14,6 +19,12 @@ This suite implements 6 major categories of scientific plots:
 - **Error Bar Line Chart**: Data with uncertainty
 
 ### 2. Bar Charts (柱状图)
+
+![Basic Bar Chart](bar_chart/plot/basic_bar_chart.png)
+![Grouped Bar Chart](bar_chart/plot/grouped_bar_chart.png)
+![Stacked Bar Chart](bar_chart/plot/stacked_bar_chart.png)
+![Horizontal Bar Chart](bar_chart/plot/horizontal_bar_chart.png)
+
 - **Basic Bar Chart**: Simple categorical data
 - **Grouped Bar Chart**: Comparing multiple categories
 - **Stacked Bar Chart**: Cumulative data visualization
@@ -21,6 +32,13 @@ This suite implements 6 major categories of scientific plots:
 - **Statistical Bar Chart**: With error bars and significance
 
 ### 3. Scatter Plots (散点图)
+
+![Basic Scatter Plot](scatter_plot/plot/basic_scatter_plot.png)
+![Colored Scatter Plot](scatter_plot/plot/colored_scatter_plot.png)
+![Sized Scatter Plot](scatter_plot/plot/sized_scatter_plot.png)
+![Categorical Scatter Plot](scatter_plot/plot/categorical_scatter_plot.png)
+![Correlation Matrix](scatter_plot/plot/correlation_matrix_scatter.png)
+
 - **Basic Scatter Plot**: Simple correlation analysis
 - **Colored Scatter Plot**: Third variable visualization
 - **Sized Scatter Plot**: Bubble chart style
@@ -28,6 +46,13 @@ This suite implements 6 major categories of scientific plots:
 - **Correlation Matrix**: Multiple variable relationships
 
 ### 4. Box Plots (箱线图)
+
+![Basic Box Plot](box_plot/plot/basic_box_plot.png)
+![Violin Plot](box_plot/plot/violin_plot.png)
+![Grouped Box Plot](box_plot/plot/grouped_box_plot.png)
+![Notched Box Plot](box_plot/plot/notched_box_plot.png)
+![Horizontal Box Plot](box_plot/plot/horizontal_box_plot.png)
+
 - **Basic Box Plot**: Distribution comparison
 - **Violin Plot**: Density distribution
 - **Grouped Box Plot**: Multi-factor analysis
@@ -35,6 +60,13 @@ This suite implements 6 major categories of scientific plots:
 - **Horizontal Box Plot**: Alternative layout
 
 ### 5. Histograms (直方图)
+
+![Basic Histogram](histogram/plot/basic_histogram.png)
+![Multiple Histograms](histogram/plot/multiple_histograms.png)
+![Stacked Histogram](histogram/plot/stacked_histogram.png)
+![2D Histogram](histogram/plot/2d_histogram.png)
+![Distribution Comparison](histogram/plot/distribution_comparison.png)
+
 - **Basic Histogram**: Single distribution
 - **Multiple Histograms**: Overlapping distributions
 - **Stacked Histogram**: Categorical breakdown
@@ -42,6 +74,14 @@ This suite implements 6 major categories of scientific plots:
 - **Distribution Comparison**: Statistical overlays
 
 ### 6. 3D Plots (三维图)
+
+![3D Surface Plot](3d_plot/plot/3d_surface_plot.png)
+![3D Scatter Plot](3d_plot/plot/3d_scatter_plot.png)
+![3D Wireframe](3d_plot/plot/3d_wireframe_plot.png)
+![3D Bar Plot](3d_plot/plot/3d_bar_plot.png)
+![3D Contour Plot](3d_plot/plot/3d_contour_plot.png)
+![Parametric 3D Plot](3d_plot/plot/parametric_3d_plot.png)
+
 - **3D Surface Plot**: Mathematical functions
 - **3D Scatter Plot**: Three-dimensional data
 - **3D Wireframe**: Mesh visualization
@@ -215,6 +255,33 @@ Each chart type generates multiple variants:
 - **3D Plots**: 6 different styles (surface, scatter, wireframe, bar, contour, parametric)
 
 **Total**: 30+ individual plots with corresponding datasets
+
+### Sample Output Gallery
+
+Here are some examples of the generated plots:
+
+<table>
+<tr>
+<td align="center">
+<img src="line_chart/plot/multiple_line_chart.png" width="300px" alt="Multiple Line Chart"/>
+<br><b>Multiple Line Chart</b>
+</td>
+<td align="center">
+<img src="scatter_plot/plot/sized_scatter_plot.png" width="300px" alt="Sized Scatter Plot"/>
+<br><b>Bubble Chart</b>
+</td>
+</tr>
+<tr>
+<td align="center">
+<img src="box_plot/plot/violin_plot.png" width="300px" alt="Violin Plot"/>
+<br><b>Violin Plot</b>
+</td>
+<td align="center">
+<img src="3d_plot/plot/3d_surface_plot.png" width="300px" alt="3D Surface Plot"/>
+<br><b>3D Surface Plot</b>
+</td>
+</tr>
+</table>
 
 ## 🤝 Contributing
 
