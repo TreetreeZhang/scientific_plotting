@@ -184,37 +184,9 @@ cd 3d_plot/code && python 3d_plot.py
 - **seaborn**: Statistical data visualization
 - **scipy**: Scientific computing
 
-## 🎨 Features
-
-### Consistent Styling
-- Scientific publication-ready plots
-- Consistent color palettes across all chart types
-- Professional typography and layout
-- High-resolution output (300 DPI)
-
-### Data Generation
-- Realistic synthetic datasets for each plot type
-- CSV export for all generated data
-- Reproducible random seeds for consistency
-
-### Modular Design
-- Each chart type is self-contained
-- Shared utilities for common functionality
-- Easy to extend with new chart types
-
-### Error Handling
-- Robust error handling and logging
-- Graceful failure recovery
-- Detailed progress reporting
-
 ## 📁 Output Files
 
 After running the scripts, you'll find:
-
-### Data Files (CSV format)
-- `*/data/*.csv` - All generated datasets
-- Includes headers and proper formatting
-- Can be imported into other analysis tools
 
 ### Plot Files (PNG format)
 - `*/plot/*.png` - High-resolution plot images
@@ -282,28 +254,3 @@ Here are some examples of the generated plots:
 </td>
 </tr>
 </table>
-
-## 🤝 Contributing
-
-This project is based on the "科学绘图共享计划" (Scientific Plotting Sharing Plan). Contributions are welcome:
-
-1. Add new chart types or variants
-2. Improve existing implementations
-3. Enhance documentation
-4. Report bugs or suggest improvements
-
-## 📄 License
-
-This project is created for educational and research purposes based on the scientific plotting sharing plan.
-
-## 🙏 Acknowledgments
-
-- Based on the "科学绘图共享计划.pdf" requirements
-- Inspired by best practices in scientific visualization
-- Built with open-source Python libraries
-
----
-
-**Happy Plotting! 🎨📊**
-
-For questions or issues, please refer to the individual code files or the PDF documentation that inspired this project. 
