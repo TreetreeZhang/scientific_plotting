@@ -1,6 +1,6 @@
 # Scientific Plotting Suite (科学绘图套件)
 
-A comprehensive Python-based scientific plotting suite based on the "科学绘图共享计划" (Scientific Plotting Sharing Plan) PDF requirements. This project generates various types of scientific visualizations with consistent styling and organization.
+A comprehensive Python-based scientific plotting suite that generates various types of scientific visualizations with consistent styling and organization.
 
 ## 📊 Chart Types Included
 
@@ -13,10 +13,8 @@ This suite implements 6 major categories of scientific plots:
 ![Line Chart with Confidence Interval](line_chart/plot/line_chart_with_ci.png)
 
 - **Basic Line Chart**: Simple time series data
-- **Multiple Line Chart**: Comparing multiple datasets
-- **Styled Line Chart**: Enhanced styling with markers
-- **Subplots Line Chart**: Multiple related plots
-- **Error Bar Line Chart**: Data with uncertainty
+- **Multiple Line Chart**: Comparing multiple datasets  
+- **Line Chart with Confidence Interval**: Data with uncertainty bands
 
 ### 2. Bar Charts (柱状图)
 
@@ -29,7 +27,6 @@ This suite implements 6 major categories of scientific plots:
 - **Grouped Bar Chart**: Comparing multiple categories
 - **Stacked Bar Chart**: Cumulative data visualization
 - **Horizontal Bar Chart**: Alternative orientation
-- **Statistical Bar Chart**: With error bars and significance
 
 ### 3. Scatter Plots (散点图)
 
@@ -128,6 +125,7 @@ scientific_plotting/
 │       └── 3d_plot.py              # 3D plot functions
 ├── requirements.txt                # Python dependencies
 ├── run_all_plots.py               # Main execution script
+├── DATA_FORMAT_GUIDE.md           # Data format documentation
 └── README.md                      # This file
 ```
 
@@ -178,11 +176,11 @@ cd 3d_plot/code && python 3d_plot.py
 
 ## 📦 Dependencies
 
-- **numpy**: Numerical computing
-- **pandas**: Data manipulation and analysis
-- **matplotlib**: Core plotting library
-- **seaborn**: Statistical data visualization
-- **scipy**: Scientific computing
+- **numpy**: Numerical computing (>=1.21.0)
+- **pandas**: Data manipulation and analysis (>=1.3.0)
+- **matplotlib**: Core plotting library (>=3.5.0)
+- **seaborn**: Statistical data visualization (>=0.11.0)
+- **scipy**: Scientific computing (>=1.7.0)
 
 ## 🎨 Features
 
@@ -225,7 +223,6 @@ After running the scripts, you'll find:
 
 ### Modifying Plots
 Each plotting script can be customized by editing the respective Python files:
-- Adjust data generation parameters
 - Modify styling and colors
 - Change plot dimensions and DPI
 - Add new plot variants
@@ -247,14 +244,14 @@ Edit `utils/common_utils.py` to modify:
 
 Each chart type generates multiple variants:
 
-- **Line Charts**: 5 different styles (basic, multiple, styled, subplots, error bars)
-- **Bar Charts**: 5 different styles (basic, grouped, stacked, horizontal, statistical)
+- **Line Charts**: 3 different styles (basic, multiple, confidence interval)
+- **Bar Charts**: 4 different styles (basic, grouped, stacked, horizontal)
 - **Scatter Plots**: 5 different styles (basic, colored, sized, categorical, correlation)
 - **Box Plots**: 5 different styles (basic, violin, grouped, notched, horizontal)
 - **Histograms**: 5 different styles (basic, multiple, stacked, 2D, comparison)
 - **3D Plots**: 6 different styles (surface, scatter, wireframe, bar, contour, parametric)
 
-**Total**: 30+ individual plots with corresponding datasets
+**Total**: 28 individual plots with corresponding datasets
 
 ### Sample Output Gallery
 
@@ -285,25 +282,13 @@ Here are some examples of the generated plots:
 
 ## 🤝 Contributing
 
-This project is based on the "科学绘图共享计划" (Scientific Plotting Sharing Plan). Contributions are welcome:
+Contributions are welcome:
 
 1. Add new chart types or variants
 2. Improve existing implementations
 3. Enhance documentation
 4. Report bugs or suggest improvements
 
-## 📄 License
-
-This project is created for educational and research purposes based on the scientific plotting sharing plan.
-
-## 🙏 Acknowledgments
-
-- Based on the "科学绘图共享计划.pdf" requirements
-- Inspired by best practices in scientific visualization
-- Built with open-source Python libraries
-
 ---
 
-**Happy Plotting! 🎨📊**
-
-For questions or issues, please refer to the individual code files or the PDF documentation that inspired this project. 
+**Happy Plotting! 🎨📊** 
